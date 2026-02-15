@@ -1,0 +1,47 @@
+# ========================================
+# AI FACE ENGINE - Ignore Everything Except app.py
+# ========================================
+ai-face-engine/*
+!ai-face-engine/app.py
+
+# Ignore Python virtual environments
+ai-face-engine/.venv/
+ai-face-engine/venv/
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========================================
+# NEXT.JS (ai-wedding-gallery)
+# ========================================
+
+# Node modules
+ai-wedding-gallery/node_modules/
+
+# Next build files
+ai-wedding-gallery/.next/
+ai-wedding-gallery/out/
+
+# Environment files
+ai-wedding-gallery/.env
+ai-wedding-gallery/.env.local
+ai-wedding-gallery/.env.production
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ========================================
+# Misc
+# ========================================
+*.sqlite3
+*.db
